@@ -1,8 +1,0 @@
-.Python
-env
-bin
-lib
-include
-.DS_Store
-.pyc
-db.sqlite3
