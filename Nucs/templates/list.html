@@ -7,7 +7,7 @@
 {% for nuc in nucs_list %}
 <li style="padding-left:10px;{% if forloop.counter0|divisibleby:"4" %}background-color:#E1F3C9{% endif %}">
     {% if nuc.enables_nuc == True %}
-        <a href="/nuc/{{ nuc.mac_addr_nuc }}">{{ nuc.fqdn_name_nuc }} {{ nuc.ffc_code }}</a>
+        <a href="/nuc/{{ nuc.mac_addr_nuc }}">{{ nuc.fqdn_name_nuc }} {{ nuc.ffc_code }}</a> dssdfsdf
     {% endif %}
 </li>
 {% endfor %}
